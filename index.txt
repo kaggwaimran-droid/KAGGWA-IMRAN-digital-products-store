@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore practical AI prompts, real estate resources, KDP publishing tools and digital products by Kaggwa Imran.">
+<meta name="theme-color" content="#284f3c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kaggwa Imran — Digital Tools & AI Resources">
+<meta property="og:description" content="Practical digital resources for creators, real estate professionals and ambitious builders.">
+<meta name="robots" content="index,follow">
+<title>Kaggwa Imran — Digital Tools &amp; AI Resources</title>
+<style>
+:root{--ink:#171a17;--muted:#646a63;--paper:#fbfaf7;--white:#fff;--green:#284f3c;--lime:#d7f17a;--line:#e7e7df;--soft:#f1f1e9}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
+[hidden]{display:none!important}
+#view-home *{box-sizing:border-box}
+#view-home a{color:inherit}
+#view-home .skip-link{position:absolute;left:-9999px;top:8px;background:#fff;padding:12px;z-index:20}
+#view-home .skip-link:focus{left:12px}
+#view-home .faq-list{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+#view-home .faq-list details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+#view-home .faq-list summary{font-weight:800;cursor:pointer}
+#view-home .faq-list p{color:var(--muted);margin-bottom:0}
+#view-home .policy-note{font-size:.85rem;color:var(--muted);max-width:760px}
+#view-home .wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+#view-home .nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+#view-home .brand{font-weight:850;letter-spacing:-.04em;font-size:1.1rem;text-decoration:none}
+#view-home .brand span{color:var(--green)}
+#view-home .navlinks{display:flex;align-items:center;gap:26px}
+#view-home .navlinks a{text-decoration:none;font-size:.92rem;color:#424740}
+#view-home .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid var(--ink);border-radius:999px;padding:13px 20px;background:var(--ink);color:white;text-decoration:none;font-weight:700;font-size:.93rem;cursor:pointer;transition:.2s}
+#view-home .btn:hover{transform:translateY(-2px);opacity:.9}
+#view-home .btn.light{background:transparent;color:var(--ink)}
+#view-home .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center;padding:76px 0 88px}
+#view-home .eyebrow{font-size:.76rem;text-transform:uppercase;letter-spacing:.16em;font-weight:800;color:var(--green)}
+#view-home h1{font-size:clamp(3rem,6.2vw,5.8rem);line-height:.98;letter-spacing:-.075em;margin:18px 0 24px;max-width:690px}
+#view-home h1 em{font-family:Georgia,serif;font-weight:400}
+#view-home .hero p{font-size:1.1rem;color:var(--muted);max-width:510px;margin:0 0 28px}
+#view-home .actions{display:flex;gap:12px;flex-wrap:wrap}
+#view-home .hero-photo{height:570px;position:relative;border-radius:180px 180px 24px 24px;overflow:hidden;background:#d8ded5}
+#view-home .hero-photo img{width:100%;height:100%;object-fit:cover}
+#view-home .photo-note{position:absolute;bottom:20px;left:20px;background:var(--white);padding:15px 18px;border-radius:14px;max-width:240px;box-shadow:0 10px 35px #0001}
+#view-home .photo-note strong{display:block;font-size:.95rem}
+#view-home .photo-note small{color:var(--muted)}
+#view-home .trust{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 0;color:var(--muted);font-size:.9rem}
+#view-home .trust .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+#view-home .section{padding:86px 0}
+#view-home .section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}
+#view-home .section h2{font-size:clamp(2.1rem,4vw,3.5rem);line-height:1.05;letter-spacing:-.06em;margin:10px 0 0}
+#view-home .section-head p{max-width:390px;color:var(--muted);margin:0}
+#view-home .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+#view-home .product{border:1px solid var(--line);background:var(--white);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+#view-home .product-art{height:220px;padding:20px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+#view-home .product-art img{width:100%;height:100%;object-fit:cover;border-radius:10px}
+#view-home .art-one{background:#e9eddf}
+#view-home .art-two{background:#f4dbe6}
+#view-home .art-three{background:#e7e8e2}
+#view-home .art-four{background:#d9e6df}
+#view-home .art-five{background:#ece4d5}
+#view-home .product-body{padding:22px;display:flex;flex-direction:column;flex:1}
+#view-home .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--green);font-weight:800}
+#view-home .product h3{font-size:1.25rem;letter-spacing:-.035em;line-height:1.2;margin:10px 0}
+#view-home .product p{font-size:.91rem;color:var(--muted);margin:0 0 20px;flex:1}
+#view-home .product-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto}
+#view-home .price{font-size:1.15rem;font-weight:850}
+#view-home .mini-btn{font-size:.85rem;text-decoration:none;border-bottom:1px solid var(--ink);font-weight:750;padding-bottom:3px}
+#view-home .featured{background:var(--green);color:white;border-radius:28px;padding:54px;display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+#view-home .featured .eyebrow{color:var(--lime)}
+#view-home .featured h2{font-size:clamp(2.2rem,4vw,3.7rem);line-height:1.02;letter-spacing:-.06em;margin:14px 0}
+#view-home .featured p{color:#e0e8e1;max-width:490px}
+#view-home .featured .btn{background:var(--lime);border-color:var(--lime);color:var(--ink)}
+#view-home .feature-image{height:350px;border-radius:18px;overflow:hidden}
+#view-home .feature-image img{width:100%;height:100%;object-fit:cover}
+#view-home .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin-top:35px}
+#view-home .step{padding:24px 0;border-top:1px solid var(--line)}
+#view-home .step-num{font-size:.8rem;color:var(--green);font-weight:850}
+#view-home .step h3{margin:10px 0 6px;letter-spacing:-.03em}
+#view-home .step p{color:var(--muted);margin:0}
+#view-home .quiz{background:var(--soft);border-radius:28px;padding:clamp(24px,5vw,58px);max-width:820px;margin:0 auto}
+#view-home .quiz-top{display:flex;justify-content:space-between;gap:20px;align-items:center}
+#view-home .quiz h2{font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.06em;line-height:1.05;margin:10px 0}
+#view-home .progress{height:5px;background:#dcded4;border-radius:20px;overflow:hidden;margin:25px 0 32px}
+#view-home .progress span{display:block;height:100%;width:20%;background:var(--green);transition:width .2s}
+#view-home .question{font-size:1.35rem;font-weight:800;letter-spacing:-.03em;margin-bottom:18px}
+#view-home .choices{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#view-home .choice{background:white;border:1px solid #d8dbd1;border-radius:14px;padding:16px;text-align:left;font:inherit;cursor:pointer;min-height:66px}
+#view-home .choice:hover,#view-home .choice.selected{border-color:var(--green);box-shadow:inset 0 0 0 1px var(--green);background:#f9fff0}
+#view-home .field{width:100%;padding:14px 15px;border:1px solid #d4d7cd;border-radius:12px;background:white;font:inherit;margin:6px 0 12px}
+#view-home .quiz-actions{display:flex;justify-content:space-between;gap:12px;margin-top:28px}
+#view-home .hint{font-size:.85rem;color:var(--muted)}
+#view-home .result{background:white;border-radius:16px;padding:22px;margin-top:18px}
+#view-home .result a{font-weight:800}
+#view-home .contact{background:#fff;border-top:1px solid var(--line);padding:64px 0}
+#view-home .contact-inner{display:flex;justify-content:space-between;gap:30px;align-items:center;flex-wrap:wrap}
+#view-home .contact h2{font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.06em;line-height:1.05;margin:8px 0}
+#view-home .contact p{color:var(--muted)}
+#view-home .contact-links{display:flex;gap:12px;flex-wrap:wrap}
+#view-home .footer{padding:24px 0;color:var(--muted);font-size:.85rem}
+#view-home .footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+#view-home .mobile-menu{display:none}
+@media(max-width:850px){#view-home .hero{grid-template-columns:1fr;gap:35px;padding:50px 0 60px}
+#view-home .hero-photo{height:430px;max-width:520px;width:100%;margin:auto}
+#view-home .grid{grid-template-columns:repeat(2,1fr)}
+#view-home .featured{grid-template-columns:1fr;padding:30px}
+#view-home .feature-image{height:290px}
+#view-home .section-head{align-items:start;flex-direction:column}
+#view-home .navlinks{gap:14px}
+#view-home .steps{grid-template-columns:1fr}
+#view-home .trust .wrap{justify-content:center}}
+@media(max-width:560px){#view-home .faq-list{grid-template-columns:1fr}
+#view-home .wrap{width:min(100% - 28px,1160px)}
+#view-home .nav{height:66px}
+#view-home .navlinks a:not(.btn){display:none}
+#view-home .navlinks .btn{padding:10px 14px;font-size:.82rem}
+#view-home .hero-photo{height:350px;border-radius:130px 130px 20px 20px}
+#view-home .grid{grid-template-columns:1fr}
+#view-home .product-art{height:240px}
+#view-home .choices{grid-template-columns:1fr}
+#view-home .quiz-top{align-items:start;flex-direction:column}
+#view-home .section{padding:62px 0}
+#view-home .featured{border-radius:20px}
+#view-home .contact-inner{align-items:start;flex-direction:column}}
+#view-books *{box-sizing:border-box}
+#view-books a{color:inherit}
+#view-books .skip-link{position:absolute;left:-9999px;top:8px;background:#fff;padding:12px;z-index:20}
+#view-books .skip-link:focus{left:12px}
+#view-books .catalog-tools{display:flex;gap:12px;align-items:center;margin:18px 0 24px}
+#view-books .catalog-tools input{flex:1;min-width:0;padding:13px 15px;border:1px solid var(--line);border-radius:12px;font:inherit;background:white}
+#view-books .catalog-tools button{padding:13px 16px;border:1px solid var(--line);border-radius:999px;background:white;font:inherit;cursor:pointer}
+#view-books .no-results{display:none;background:white;border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:40px}
+#view-books .wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+#view-books .nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+#view-books .brand{font-weight:850;letter-spacing:-.04em;font-size:1.1rem;text-decoration:none}
+#view-books .brand span{color:var(--green)}
+#view-books .navlinks{display:flex;align-items:center;gap:24px}
+#view-books .navlinks a{text-decoration:none;font-size:.92rem;color:#424740}
+#view-books .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid var(--ink);border-radius:999px;padding:12px 18px;background:var(--ink);color:white;text-decoration:none;font-weight:700;font-size:.9rem;transition:.2s}
+#view-books .btn:hover{transform:translateY(-2px);opacity:.9}
+#view-books .hero{padding:74px 0 54px;max-width:820px}
+#view-books .eyebrow{font-size:.76rem;text-transform:uppercase;letter-spacing:.16em;font-weight:800;color:var(--green)}
+#view-books h1{font-size:clamp(2.8rem,6vw,5.2rem);line-height:.98;letter-spacing:-.075em;margin:16px 0 22px}
+#view-books .hero p{font-size:1.08rem;color:var(--muted);max-width:670px}
+#view-books .notice{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:16px 18px;color:#4f554d;font-size:.9rem;margin-top:24px}
+#view-books .collection-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:24px 0}
+#view-books .collection-head h2{font-size:clamp(1.8rem,3vw,2.5rem);letter-spacing:-.05em;margin:8px 0 0}
+#view-books .collection-head p{color:var(--muted);max-width:390px}
+#view-books .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-bottom:84px}
+#view-books .book-card{background:var(--white);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+#view-books .cover{height:270px;margin:18px 18px 0;border-radius:10px;box-shadow:0 10px 24px #00000012;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center;padding:20px 12px;color:#fff;position:relative;overflow:hidden;background:var(--green)}
+#view-books .amazon-cover{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;z-index:2}
+#view-books .cover-fallback{z-index:1}
+#view-books .cover:before{content:"";position:absolute;width:210px;height:210px;border:1px solid #ffffff55;border-radius:50%;top:45px;left:calc(50% - 105px)}
+#view-books .cover:after{content:"";position:absolute;width:145px;height:145px;border:1px solid #ffffff55;border-radius:50%;top:78px;left:calc(50% - 72px)}
+#view-books .cover-2{background:#85556d}
+#view-books .cover-3{background:#525e56}
+#view-books .cover-4{background:#9a744a}
+#view-books .cover-5{background:#354e73}
+#view-books .cover-small,#view-books .cover-number,#view-books .cover-label,#view-books .cover-foot{position:relative;z-index:1}
+#view-books .cover-small{font-size:.65rem;letter-spacing:.18em;font-weight:800}
+#view-books .cover-number{font-family:Georgia,serif;font-size:4.5rem;line-height:1;margin:auto 0;text-shadow:0 2px 12px #0002}
+#view-books .cover-label{font-weight:850;letter-spacing:.15em;font-size:.8rem}
+#view-books .cover-foot{font-size:.52rem;letter-spacing:.12em;margin-top:12px}
+#view-books .book-info{padding:20px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
+#view-books .tag{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--green);font-weight:800}
+#view-books .book-info h2{font-size:1.3rem;line-height:1.2;letter-spacing:-.035em;margin:10px 0}
+#view-books .book-info p{color:var(--muted);font-size:.91rem;margin:0 0 14px}
+#view-books .book-info .asin{font-size:.78rem;word-break:break-word;margin-top:auto}
+#view-books .book-info .btn{margin-top:8px}
+#view-books .footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.85rem}
+#view-books .footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:850px){#view-books .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+#view-books .hero{padding-top:54px}
+#view-books .navlinks{gap:14px}}
+@media(max-width:560px){#view-books .wrap{width:calc(100% - 28px)}
+#view-books .nav{height:66px}
+#view-books .navlinks a:not(.btn){display:none}
+#view-books .grid{grid-template-columns:1fr}
+#view-books .cover{height:300px}
+#view-books .hero{padding:45px 0 35px}
+#view-books .collection-head{align-items:start;flex-direction:column}}
+</style>
+</head>
+<body>
+<div id="view-home">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="wrap nav">
+  <a class="brand" href="#top">KAGGWA <span>IMRAN.</span></a>
+  <nav class="navlinks" aria-label="Main navigation">
+    <a href="#products">Products</a><a href="#kdp-books">KDP Books</a><a href="#about">How it works</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+    <a class="btn" href="#products">Explore products ↗</a>
+  </nav>
+</header>
+<main id="top"><div id="main-content"></div>
+<section class="wrap hero">
+  <div>
+    <div class="eyebrow">Practical digital tools · Made for action</div>
+    <h1>Make your next big idea <em>work smarter.</em></h1>
+    <p>Useful AI prompts, focused toolkits, and digital resources to help creators, real estate professionals, and ambitious builders get more done with less guesswork.</p>
+    <div class="actions"><a class="btn" href="#products">Explore the collection ↗</a><a class="btn light" href="#finder">Find the right tool</a></div>
+  </div>
+  <div class="hero-photo">
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=85" alt="Bright workspace with notebook and laptop" />
+    <div class="photo-note"><strong>Less guesswork. More progress.</strong><small>Digital resources for your next move.</small></div>
+  </div>
+</section>
+<div class="trust"><div class="wrap"><span>✳ Practical digital resources</span><span>✳ Product details on the official listing</span><span>✳ Checkout handled by Gumroad or Amazon</span></div></div>
+<section class="section wrap" id="products">
+  <div class="section-head"><div><div class="eyebrow">The collection</div><h2>Tools for your next move.</h2></div><p>Choose a resource, explore what it can do for you, and get started at your own pace.</p></div>
+  <div class="grid">
+    <article class="product"><div class="product-art art-one"><img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=800&q=85" alt="Notebook and planning materials"></div><div class="product-body"><span class="tag">For KDP creators</span><h3>KDP Book Analyzer</h3><p>A focused tool for evaluating book ideas and organizing your publishing research.</p><div class="product-foot"><span class="price">$15</span><a class="mini-btn" href="https://kaggwaimran.gumroad.com/l/rzzsl" target="_blank" rel="noopener">Get the tool ↗</a></div></div></article>
+    <article class="product"><div class="product-art art-two"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=85" alt="Person working on a laptop"></div><div class="product-body"><span class="tag">For sales conversations</span><h3>10 AI Prompts to Handle Any Buyer Objection</h3><p>Prompt ideas to help prepare clear, thoughtful responses to common buyer concerns.</p><div class="product-foot"><span class="price">$9</span><a class="mini-btn" href="https://kaggwaimran.gumroad.com/l/myffw" target="_blank" rel="noopener">Get the prompts ↗</a></div></div></article>
+    <article class="product"><div class="product-art art-three"><img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=85" alt="Modern home representing real estate"></div><div class="product-body"><span class="tag">Free resource</span><h3>10 Free AI Listing Description Prompts for Real Estate Agents</h3><p>A starter set to help agents draft more useful property listing descriptions with AI.</p><div class="product-foot"><span class="price">Free / pay what you want</span><a class="mini-btn" href="https://kaggwaimran.gumroad.com/l/fhudxu" target="_blank" rel="noopener">Get it free ↗</a></div></div></article>
+    <article class="product"><div class="product-art art-four"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=85" alt="Contemporary office buildings"></div><div class="product-body"><span class="tag">For property professionals</span><h3>The AI-Powered Real Estate Toolkit</h3><p>A collection designed to support everyday real estate tasks and AI-assisted workflows.</p><div class="product-foot"><span class="price">$29</span><a class="mini-btn" href="https://kaggwaimran.gumroad.com/l/ukjag" target="_blank" rel="noopener">Explore toolkit ↗</a></div></div></article>
+    <article class="product"><div class="product-art art-five"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=85" alt="Small team collaborating at a table"></div><div class="product-body"><span class="tag">For aspiring builders</span><h3>The Zero-Code Agency</h3><p>A digital resource for exploring agency workflows and no-code business ideas. Listing status should be confirmed before launch.</p><div class="product-foot"><span class="price">$9</span><a class="mini-btn" href="https://kaggwaimran.gumroad.com/l/qfgwgy" target="_blank" rel="noopener">Check listing ↗</a></div></div></article>
+  </div>
+  <p class="hint" style="margin-top:18px">Prices shown here are the current values entered on this website, not a live feed. The seller listing controls the final price, product details, availability, taxes, and checkout. Please verify each product page before launch.</p>
+</section>
+<section class="wrap section" id="about">
+  <div class="featured"><div><div class="eyebrow">Built for real work</div><h2>Small tools can move big ideas forward.</h2><p>Whether you are researching a book, writing property listings, handling buyer questions, or exploring a service business, the right starting point can save time and help you take the next step.</p><a class="btn" href="#finder">Find your starting point ↗</a></div><div class="feature-image"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85" alt="Warm modern workspace with desks and natural light"></div></div>
+  <div class="steps"><div class="step"><span class="step-num">01 / PICK</span><h3>Choose your goal</h3><p>Start with the task or outcome you want to improve.</p></div><div class="step"><span class="step-num">02 / EXPLORE</span><h3>Compare resources</h3><p>Review the options and find one that matches your needs.</p></div><div class="step"><span class="step-num">03 / GET MOVING</span><h3>Use it in your workflow</h3><p>Open the product page on Gumroad and follow its access instructions.</p></div></div>
+</section>
+<section class="section wrap" id="finder">
+  <div class="quiz" id="quiz">
+    <div class="quiz-top"><div><div class="eyebrow">Quick product finder</div><h2>What are you working on?</h2></div><span class="hint" id="step-label">Step 1 of 5</span></div>
+    <div class="progress"><span id="progress-bar"></span></div>
+    <div id="question-area"></div>
+    <div class="quiz-actions"><button class="btn light" id="back" type="button" disabled>← Back</button><button class="btn" id="next" type="button">Continue →</button></div>
+    <p class="hint">This demo runs in your browser. It does not save or send your answers.</p>
+  </div>
+</section>
+<section class="section wrap" id="faq">
+  <div class="section-head"><div><div class="eyebrow">Good to know</div><h2>Frequently asked questions.</h2></div><p>Clear answers before you open a product listing.</p></div>
+  <div class="faq-list">
+    <details><summary>How do I get a digital product?</summary><p>Open the relevant Gumroad listing, review the seller's current description and checkout details, then follow the access or download instructions shown after purchase.</p></details>
+    <details><summary>Are the prices on this site final?</summary><p>No. Prices displayed here are manually entered and may become outdated. The official Gumroad or Amazon listing is the source for current pricing, formats, availability, and any applicable taxes.</p></details>
+    <details><summary>Can I get a refund?</summary><p>Refund eligibility depends on the product and the seller platform's applicable policy. Review the terms shown on the checkout or listing page before purchasing.</p></details>
+    <details><summary>Are the AI prompts guaranteed to produce a result?</summary><p>No. AI output varies with the tool, prompt, and information supplied. Review and verify generated content before using it, especially for property, sales, or publishing decisions.</p></details>
+    <details><summary>Do you collect my quiz answers?</summary><p>The product finder runs in this browser and displays a recommendation on the page. It does not send answers to this website. If you email us, your email provider handles that message.</p></details>
+    <details><summary>Where can I find book details?</summary><p>Use the KDP Books page to open the official Amazon listing for each book. Amazon provides the live title, cover, description, available formats, and current price.</p></details>
+  </div>
+</section>
+<section class="section wrap" id="policies" style="padding-top:0">
+  <div class="eyebrow">Policies & transparency</div>
+  <h2 style="font-size:clamp(1.7rem,3vw,2.4rem);letter-spacing:-.05em">Before you buy</h2>
+  <p class="policy-note">Product purchases and downloads are handled by the relevant third-party platform. Review that platform's checkout terms, refund rules, privacy notice, and license for the specific product. Product descriptions on this website are summaries and do not replace the official listing. This site does not promise specific business, sales, publishing, or AI outcomes.</p>
+  <p class="policy-note">Contact: <a href="mailto:kaggwaimrankevin@gmail.com">kaggwaimrankevin@gmail.com</a>. For privacy questions about information you send directly by email, contact us at this address.</p>
+</section>
+<section class="contact" id="contact"><div class="wrap contact-inner"><div><div class="eyebrow">Get in touch</div><h2>Questions? Let's connect.</h2><p>For product questions or support, reach out using the contact options below.</p><p><strong>Email:</strong> <a href="mailto:kaggwaimrankevin@gmail.com">kaggwaimrankevin@gmail.com</a></p><p><strong>WhatsApp:</strong> <a href="https://wa.me/256784324301" target="_blank" rel="noopener noreferrer">+256784324301</a></p></div><div class="contact-links"><a class="btn" href="mailto:kaggwaimrankevin@gmail.com?subject=Digital%20product%20enquiry">Email Imran ↗</a><a class="btn light" href="https://wa.me/256784324301" id="whatsapp-link" target="_blank" rel="noopener noreferrer" aria-label="Chat with Kaggwa Imran on WhatsApp">WhatsApp: +256784324301 ↗</a></div></div></section>
+</main>
+<footer class="footer"><div class="wrap"><span>© <span id="year"></span> Kaggwa Imran. Digital resources for practical progress.</span><span><a href="#faq">FAQ</a> · <a href="#policies">Policies</a> · <a href="#kdp-books">KDP Books</a></span><a href="#top">Back to top ↑</a></div></footer>
+
+</div>
+<div id="view-books" hidden>
+<a class="skip-link" href="#main-content-books">Skip to content</a>
+<header class="wrap nav" id="top-books">
+  <a class="brand" href="#top">KAGGWA <span>IMRAN.</span></a>
+  <nav class="navlinks" aria-label="Main navigation">
+    <a href="#products">Digital Products</a>
+    <a href="#kdp-books">KDP Books</a>
+    <a href="#contact">Contact</a>
+    <a class="btn" href="#top">Back to home ↗</a>
+  </nav>
+</header>
+<main class="wrap" id="main-content-books">
+  <section class="hero">
+    <div class="eyebrow">Books by Kaggwa Imran</div>
+    <h1>Ideas to explore.<br><em>Books to discover.</em></h1>
+    <p>Browse the KDP book collection and open any Amazon listing to see its full title, cover, description, available formats and current details.</p>
+    <div class="notice"><strong>Current listing details:</strong> Each button opens the supplied Amazon listing, where the current title, cover, description, formats, price and availability are maintained. Amazon did not provide listing metadata to this editing session, so we have kept the supplied links intact and avoided inventing book details. If a cover image is available from Amazon, it is shown below; otherwise the numbered fallback keeps the link usable.</div>
+  </section>
+  <section aria-labelledby="collection-title">
+    <div class="collection-head">
+      <div><div class="eyebrow">The collection</div><h2 id="collection-title">Explore the books</h2></div>
+      <p>10 direct links to Amazon book listings, including one UK marketplace listing.</p>
+    </div>
+    <div class="catalog-tools"><label for="book-search" class="sr-only" style="position:absolute;left:-9999px">Search book listings</label><input id="book-search" type="search" placeholder="Search by book number or listing ID…" autocomplete="off"><button type="button" id="clear-search">Clear</button></div>
+    <p class="hint" id="result-count" aria-live="polite">Showing all 10 book listings.</p>
+    <div class="no-results" id="no-results">No listings match that search. Try a book number or part of the listing ID.</div>
+    <div class="grid" id="book-grid">
+
+      <article class="book-card" data-search="book 1 b0hkzbw7df amazon listing">
+        <div class="cover cover-1" aria-label="Book listing 01 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 01" src="https://images-na.ssl-images-amazon.com/images/P/B0HKZBW7DF.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">01</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon US</span>
+          <h2>Explore Book 01</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0HKZBW7DF</p>
+          <a class="btn" href="https://www.amazon.com/dp/B0HKZBW7DF" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+
+      <article class="book-card" data-search="book 2 b0h46vdl53 amazon listing">
+        <div class="cover cover-2" aria-label="Book listing 02 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 02" src="https://images-na.ssl-images-amazon.com/images/P/B0H46VDL53.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">02</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon US</span>
+          <h2>Explore Book 02</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0H46VDL53</p>
+          <a class="btn" href="https://www.amazon.com/dp/B0H46VDL53" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+
+      <article class="book-card" data-search="book 3 b0hhms239m amazon listing">
+        <div class="cover cover-3" aria-label="Book listing 03 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 03" src="https://images-na.ssl-images-amazon.com/images/P/B0HHMS239M.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">03</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon US</span>
+          <h2>Explore Book 03</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0HHMS239M</p>
+          <a class="btn" href="https://www.amazon.com/dp/B0HHMS239M" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+
+      <article class="book-card" data-search="book 4 b0hhrjcxrg amazon listing">
+        <div class="cover cover-4" aria-label="Book listing 04 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 04" src="https://images-na.ssl-images-amazon.com/images/P/B0HHRJCXRG.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">04</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon US</span>
+          <h2>Explore Book 04</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0HHRJCXRG</p>
+          <a class="btn" href="https://www.amazon.com/dp/B0HHRJCXRG" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+
+      <article class="book-card" data-search="book 5 b0hh87l6nm amazon listing">
+        <div class="cover cover-5" aria-label="Book listing 05 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 05" src="https://images-na.ssl-images-amazon.com/images/P/B0HH87L6NM.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">05</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon US</span>
+          <h2>Explore Book 05</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0HH87L6NM</p>
+          <a class="btn" href="https://www.amazon.com/dp/B0HH87L6NM" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+
+      <article class="book-card" data-search="book 6 b0hggfbpr2 amazon listing">
+        <div class="cover cover-1" aria-label="Book listing 06 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 06" src="https://images-na.ssl-images-amazon.com/images/P/B0HGGFBPR2.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">06</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon US</span>
+          <h2>Explore Book 06</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0HGGFBPR2</p>
+          <a class="btn" href="https://www.amazon.com/dp/B0HGGFBPR2" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+
+      <article class="book-card" data-search="book 7 b0hghfcnvh amazon listing">
+        <div class="cover cover-2" aria-label="Book listing 07 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 07" src="https://images-na.ssl-images-amazon.com/images/P/B0HGHFCNVH.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">07</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon US</span>
+          <h2>Explore Book 07</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0HGHFCNVH</p>
+          <a class="btn" href="https://www.amazon.com/dp/B0HGHFCNVH" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+
+      <article class="book-card" data-search="book 8 b0h16gq2ck amazon listing">
+        <div class="cover cover-3" aria-label="Book listing 08 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 08" src="https://images-na.ssl-images-amazon.com/images/P/B0H16GQ2CK.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">08</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon US</span>
+          <h2>Explore Book 08</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0H16GQ2CK</p>
+          <a class="btn" href="https://www.amazon.com/dp/B0H16GQ2CK" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+
+      <article class="book-card" data-search="book 9 b0hh7lyflv amazon listing">
+        <div class="cover cover-4" aria-label="Book listing 09 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 09" src="https://images-na.ssl-images-amazon.com/images/P/B0HH7LYFLV.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">09</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon UK</span>
+          <h2>Explore Book 09</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0HH7LYFLV</p>
+          <a class="btn" href="https://www.amazon.co.uk/dp/B0HH7LYFLV" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+
+      <article class="book-card" data-search="book 10 b0hh135bvk amazon listing">
+        <div class="cover cover-5" aria-label="Book listing 10 cover preview"><img class="amazon-cover" loading="lazy" alt="Cover image for Amazon book listing 10" src="https://images-na.ssl-images-amazon.com/images/P/B0HH135BVK.01._SX300_.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;position:absolute;inset:0;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 12px"><span class="cover-small">KAGGWA IMRAN</span><span class="cover-number">10</span><span class="cover-label">AMAZON<br>LISTING</span><span class="cover-foot">OPEN LISTING FOR COVER</span></div></div>
+        <div class="book-info">
+          <span class="tag">Amazon US</span>
+          <h2>Explore Book 10</h2>
+          <p>Open the official Amazon listing to view the book title, cover, description, formats and current availability.</p>
+          <p class="asin">Listing ID: B0HH135BVK</p>
+          <a class="btn" href="https://www.amazon.com/dp/B0HH135BVK" target="_blank" rel="noopener noreferrer">View on Amazon ↗</a>
+        </div>
+      </article>
+    
+    </div>
+  </section>
+</main>
+<section class="wrap" style="padding:0 0 52px"><div class="notice"><strong>Shopping safely:</strong> Check the title, author, edition, format, price and seller information on Amazon before ordering. The marketplace page controls current availability and checkout. For questions about this website or the collection, <a href="mailto:kaggwaimrankevin@gmail.com">email Kaggwa Imran</a>.</div></section>
+<footer class="footer"><div class="wrap"><span>© <span id="year-books"></span> Kaggwa Imran. All rights reserved.</span><a href="#top-books">Back to top ↑</a></div></footer>
+
+</div>
+<script>
+{
+
+const questions=[
+ {q:"What would you like help with?",opts:[["KDP publishing","kdp"],["Real estate work","realestate"],["Sales conversations","sales"],["Starting a no-code agency","agency"]]},
+ {q:"What kind of resource do you prefer?",opts:[["A ready-to-use tool","tool"],["AI prompts","prompts"],["A complete toolkit","toolkit"],["A free starting point","free"]]},
+ {q:"Where are you right now?",opts:[["Just exploring ideas","exploring"],["Ready to try something","trying"],["Already doing the work","active"],["Improving an existing process","improving"]]},
+ {q:"What budget feels right today?",opts:[["Free","free"],["Under $10","low"],["$10–$20","mid"],["$20 or more","high"]]},
+ {q:"Ready to see your recommendation?",confirm:true}
+];
+let step=0,answers={};const area=document.getElementById("question-area"),next=document.getElementById("next"),back=document.getElementById("back");
+function render(){document.getElementById("step-label").textContent=`Step ${step+1} of 5`;document.getElementById("progress-bar").style.width=`${(step+1)*20}%`;back.disabled=step===0;
+if(step<4){area.innerHTML=`<div class="question">${questions[step].q}</div><div class="choices">${questions[step].opts.map(([label,val])=>`<button type="button" class="choice ${answers[step]===val?'selected':''}" data-val="${val}">${label}</button>`).join("")}</div>`;area.querySelectorAll(".choice").forEach(b=>b.addEventListener("click",()=>{answers[step]=b.dataset.val;render()}));next.textContent="Continue →";
+}else{area.innerHTML=`<div class="question">${questions[4].q}</div><p class="hint">Your answers stay in this browser. Select “Show my recommendation” to see a suggested resource based on your goal and budget.</p>`;next.textContent="Show my recommendation ↗";}}
+function safe(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function recommendation(){const g=answers[0],budget=answers[3],format=answers[1];const free=["10 Free AI Listing Description Prompts for Real Estate Agents","Free / pay what you want","https://kaggwaimran.gumroad.com/l/fhudxu"];if(budget==="free")return free;if(g==="kdp"){if(budget==="low")return ["KDP Book Analyzer","$15","https://kaggwaimran.gumroad.com/l/rzzsl"];return ["KDP Book Analyzer","$15","https://kaggwaimran.gumroad.com/l/rzzsl"];}if(g==="realestate"){if(budget==="low"||format==="free")return free;if(budget==="mid")return ["10 AI Prompts to Handle Any Buyer Objection","$9","https://kaggwaimran.gumroad.com/l/myffw"];return ["The AI-Powered Real Estate Toolkit","$29","https://kaggwaimran.gumroad.com/l/ukjag"];}if(g==="sales")return ["10 AI Prompts to Handle Any Buyer Objection","$9","https://kaggwaimran.gumroad.com/l/myffw"];if(g==="agency")return ["The Zero-Code Agency","$9","https://kaggwaimran.gumroad.com/l/qfgwgy"];return free;}
+next.addEventListener("click",()=>{if(step<4){if(answers[step]===undefined){alert("Please choose an option to continue.");return}step++;render();return}const r=recommendation();area.innerHTML=`<div class="question">Your suggested starting point</div><div class="result"><span class="tag">Recommended resource</span><h3>${r[0]}</h3><p>Based on your goal and budget, this is a useful place to start. Listed at <strong>${r[1]}</strong> on this site; confirm the live price and details on the product page.</p><a href="${r[2]}" target="_blank" rel="noopener">View product on Gumroad ↗</a></div><button class="btn light" id="restart" type="button" style="margin-top:18px">Start again</button>`;next.style.display="none";back.style.display="none";document.getElementById("restart").onclick=()=>{step=0;answers={};next.style.display="";back.style.display="";render()};});
+back.addEventListener("click",()=>{if(step>0){step--;render()}});
+document.getElementById("year").textContent=new Date().getFullYear();
+
+}
+{
+
+document.getElementById("year-books").textContent=new Date().getFullYear();
+const search=document.getElementById("book-search"),cards=[...document.querySelectorAll(".book-card")],count=document.getElementById("result-count"),empty=document.getElementById("no-results");
+function filterBooks(){const q=search.value.trim().toLowerCase();let shown=0;cards.forEach(card=>{const match=card.dataset.search.includes(q);card.hidden=!match;if(match)shown++;});count.textContent=`Showing ${shown} of ${cards.length} book listings.`;empty.style.display=shown?"none":"block";}
+search.addEventListener("input",filterBooks);document.getElementById("clear-search").addEventListener("click",()=>{search.value="";filterBooks();search.focus();});
+
+}
+
+(function(){
+const home=document.getElementById("view-home"),books=document.getElementById("view-books");
+const titles={home:document.title,books:"KDP Books — Kaggwa Imran"};
+function route(first){
+  const h=location.hash,isBooks=h==="#kdp-books";
+  home.hidden=isBooks;books.hidden=!isBooks;
+  document.title=isBooks?titles.books:titles.home;
+  if(isBooks){window.scrollTo(0,0);return}
+  const id=decodeURIComponent(h.slice(1)),el=id&&document.getElementById(id);
+  if(el)el.scrollIntoView();else if(!first)window.scrollTo(0,0);
+}
+addEventListener("hashchange",()=>route(false));
+route(true);
+})();
+
+</script>
+<!--
+=====================================================================
+ALL 4 ORIGINAL FILES IN THIS ONE FILE
+- index.html + kdp-books.html : merged into the page above (home + #kdp-books view)
+- README.md and .gitignore    : copied below for safekeeping
+  (save this file as index.html to publish it; any "- -" below was "--" originally)
+=====================================================================
+
+----- README.md -----
+# Kaggwa Imran — Digital Tools & AI Resources
+
+A responsive, static two-page website for showcasing digital products and a KDP book catalogue.
+
+## Pages
+
+- `index.html` — homepage, product cards, product finder, FAQ, and contact details.
+- `kdp-books.html` — KDP book catalogue with search and links to Amazon listings.
+
+## Contact
+
+- WhatsApp: [+256784324301](https://wa.me/256784324301)
+- Email: [kaggwaimrankevin@gmail.com](mailto:kaggwaimrankevin@gmail.com)
+
+## Run locally
+
+No build tools or package installation are required.
+
+1. Download or clone this repository.
+2. Open `index.html` in a browser.
+3. Use the navigation link to open the book catalogue.
+
+For a more realistic local test, serve the files with any static HTTP server.
+
+## Publish with GitHub Pages
+
+1. Create a GitHub repository and upload **all files in this folder** to the repository root.
+2. In the repository, open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select your publishing branch (usually `main`) and the `/(root)` folder, then save.
+5. Wait for GitHub Pages to publish the site. The homepage will be `index.html`; the book page will be available at `/kdp-books.html`.
+
+Keep `index.html` and `kdp-books.html` in the same directory so navigation works correctly.
+
+## Before launch
+
+- Open every Gumroad and Amazon link and confirm that it points to the correct, live listing.
+- Check current prices, availability, descriptions, and book cover images.
+- Test the site on a phone and desktop, and check keyboard navigation.
+- Test the WhatsApp and email links.
+- Add a custom domain only after configuring it in GitHub Pages.
+- Add a privacy policy and any applicable terms/refund details that match the way the site actually operates.
+
+## Notes and limitations
+
+- This is a static HTML site. It does not include a backend, newsletter subscription service, analytics integration, or server-side form processing.
+- The product finder runs in the visitor's browser and does not send or store quiz answers.
+- The Amazon cover images use best-effort external loading; availability can vary. Replace them with approved, reliable image URLs if needed.
+- No book titles, reviews, or product details have been invented where the original listing data was unavailable.
+- No license is included. Add a license only if you intend to grant others permission to reuse or modify the code/content.
+
+----- .gitignore -----
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build/dependency output (not required for this static site)
+node_modules/
+dist/
+build/
+
+-->
+</body>
+</html>
